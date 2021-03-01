@@ -136,6 +136,7 @@ if option=="s":
             Bank.displayHistory()
         else:
             sys.exit()
+    s.exit()
 elif option=="c":
     ename = input("Enter the Company Name:")
     ebalance = int(input("Enter the Balance:"))
